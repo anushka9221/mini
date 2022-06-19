@@ -43,8 +43,8 @@
     </header>
 
     <section class="section contact" data-section="section1">
-      <div class="contain">
-        <div class="row d-flex align-item-center justify-content-centrer">
+      <div class="contain mx-auto">
+        <div class="row">
           <div class="col-md-8">
             <div>
               <iframe
@@ -78,7 +78,15 @@
                 sends a SOS signal to the important people but it also sends the
                 user location using the google maps. The main advantage of this
                 project is that this device can be carried everywhere since it
-                is small.
+                is small. Rakshane also allows the user to use the Taser feature
+                to protect themselves from situations. And the best part is that
+                Rakshane provides all these features to you at market price
+                only. The project presents a safety device for everyone using
+                the arduino. The device uses a wireless sensor network to
+                communicate and to send messages to friends and family. The
+                user's whereabouts can be tracked 24x7 by their family/friends.
+                The GPS and GSM are used to share the user's location directly
+                to the relevant authorities and saved contacts.
               </p>
             </div>
           </div>
@@ -175,52 +183,52 @@
     <script src="assets/js/custom.js"></script>
     <script>
       //according to loftblog tut
-      $(".nav li:first").addClass("active");
+      $('.nav li:first').addClass('active');
 
       var showSection = function showSection(section, isAnimate) {
-        var direction = section.replace(/#/, ""),
-          reqSection = $(".section").filter(
+        var direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter(
             '[data-section="' + direction + '"]'
           ),
           reqSectionPos = reqSection.offset().top - 0;
 
         if (isAnimate) {
-          $("body, html").animate(
+          $('body, html').animate(
             {
               scrollTop: reqSectionPos,
             },
             800
           );
         } else {
-          $("body, html").scrollTop(reqSectionPos);
+          $('body, html').scrollTop(reqSectionPos);
         }
       };
 
       var checkSection = function checkSection() {
-        $(".section").each(function () {
+        $('.section').each(function () {
           var $this = $(this),
             topEdge = $this.offset().top - 80,
             bottomEdge = topEdge + $this.height(),
             wScroll = $(window).scrollTop();
           if (topEdge < wScroll && bottomEdge > wScroll) {
-            var currentId = $this.data("section"),
-              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            var currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
             reqLink
-              .closest("li")
-              .addClass("active")
+              .closest('li')
+              .addClass('active')
               .siblings()
-              .removeClass("active");
+              .removeClass('active');
           }
         });
       };
 
-      $(".main-menu, .scroll-to-section").on("click", "a", function (e) {
-        if ($(e.target).hasClass("external")) {
+      $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+        if ($(e.target).hasClass('external')) {
           return;
         }
         e.preventDefault();
-        $("#menu").removeClass("active");
-        showSection($(this).attr("href"), true);
+        $('#menu').removeClass('active');
+        showSection($(this).attr('href'), true);
       });
 
       $(window).scroll(function () {

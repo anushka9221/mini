@@ -8,7 +8,25 @@ https://templatemo.com/tm-557-grad-school
 
 @import url(fontawesome.css);
 @import url(
+<<<<<<< HEAD
   '<link href='https://fonts.googleapis.com/css?family=Montserrat:100,
+=======
+<<<<<<< HEAD
+    '<link href='https://fonts.googleapis.com/css?family=Montserrat:100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900' rel='stylesheet'>'
+  )
+  ; body {
+  font-family: 'Montserrat', sans-serif;
+=======
+  "<link href="https://fonts.googleapis.com/css?family=Montserrat:100,
+>>>>>>> de10a2a312290e7a66bfafc284432d8e18d8c31b
   200,
   300,
   400,
@@ -16,10 +34,18 @@ https://templatemo.com/tm-557-grad-school
   600,
   700,
   800,
+<<<<<<< HEAD
   900' rel='stylesheet'>'
 );
 body {
   font-family: 'Montserrat', sans-serif;
+=======
+  900" rel="stylesheet">"
+);
+body {
+  font-family: "Montserrat", sans-serif;
+>>>>>>> 1a20c5f4ba8e68d75d55ed2e889edc1cd3946dc9
+>>>>>>> de10a2a312290e7a66bfafc284432d8e18d8c31b
 }
 
 /* Basic */
@@ -56,7 +82,15 @@ p {
   background-color: rgba(250, 250, 250, 0.1);
   position: absolute;
   top: -102px;
+<<<<<<< HEAD
   content: '';
+=======
+<<<<<<< HEAD
+  content: '';
+=======
+  content: "";
+>>>>>>> 1a20c5f4ba8e68d75d55ed2e889edc1cd3946dc9
+>>>>>>> de10a2a312290e7a66bfafc284432d8e18d8c31b
   left: 50%;
   transform: translate(-50%);
 }
@@ -137,8 +171,18 @@ a.menu-link {
     font-weight: 700;
     line-height: 1.5;
   }
+<<<<<<< HEAD
   nav[role='navigation'] li:hover a,
   nav[role='navigation'] li.active a {
+=======
+<<<<<<< HEAD
+  nav[role='navigation'] li:hover a,
+  nav[role='navigation'] li.active a {
+=======
+  nav[role="navigation"] li:hover a,
+  nav[role="navigation"] li.active a {
+>>>>>>> 1a20c5f4ba8e68d75d55ed2e889edc1cd3946dc9
+>>>>>>> de10a2a312290e7a66bfafc284432d8e18d8c31b
     color: #f5a425;
   }
 
@@ -227,8 +271,18 @@ a.menu-link {
 }
 
 .main-menu li.has-submenu a:after {
+<<<<<<< HEAD
   content: '\f107';
   font-family: 'FontAwesome';
+=======
+<<<<<<< HEAD
+  content: '\f107';
+  font-family: 'FontAwesome';
+=======
+  content: "\f107";
+  font-family: "FontAwesome";
+>>>>>>> 1a20c5f4ba8e68d75d55ed2e889edc1cd3946dc9
+>>>>>>> de10a2a312290e7a66bfafc284432d8e18d8c31b
   margin-left: 5px;
 }
 
@@ -494,6 +548,14 @@ section.why-us {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 100px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+  color: pink;
+  font-size: 20rem;
+>>>>>>> 1a20c5f4ba8e68d75d55ed2e889edc1cd3946dc9
+>>>>>>> de10a2a312290e7a66bfafc284432d8e18d8c31b
 }
 
 #tabs {
@@ -539,7 +601,15 @@ section.why-us {
   width: 10px;
   height: 10px;
   background-color: #fff;
+<<<<<<< HEAD
   content: '';
+=======
+<<<<<<< HEAD
+  content: '';
+=======
+  content: "";
+>>>>>>> 1a20c5f4ba8e68d75d55ed2e889edc1cd3946dc9
+>>>>>>> de10a2a312290e7a66bfafc284432d8e18d8c31b
   position: absolute;
   left: 50%;
   transform: translate(-50%);
@@ -551,7 +621,15 @@ section.why-us {
   height: 25px;
   border: 2px solid transparent;
   background-color: transparent;
+<<<<<<< HEAD
   content: '';
+=======
+<<<<<<< HEAD
+  content: '';
+=======
+  content: "";
+>>>>>>> 1a20c5f4ba8e68d75d55ed2e889edc1cd3946dc9
+>>>>>>> de10a2a312290e7a66bfafc284432d8e18d8c31b
   position: absolute;
   left: 50%;
   transform: translate(-50%);
@@ -610,10 +688,112 @@ section.why-us {
   .tabs-content img {
     padding-right: 0px;
   }
+<<<<<<< HEAD
+}
+
+/* Coming Soon */
+=======
 }
 
 /* Coming Soon */
 
+<<<<<<< HEAD
+/* Courses */
+
+section.courses {
+  background-image: url(../images/choosing-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #172238;
+  padding-bottom: 100px;
+  padding: 0px 30px 100px 30px;
+}
+
+section.courses .item img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+section.courses .item .down-content {
+  padding: 30px;
+  background-color: #fff;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+section.courses .item .down-content h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #1e1e1e;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+section.courses .item .down-content p {
+  margin-bottom: 25px;
+}
+
+section.courses .item .down-content img {
+  width: 40px;
+  border: 2px solid #f5a425;
+  border-radius: 50%;
+  text-align: left;
+  display: inline-block;
+}
+>>>>>>> de10a2a312290e7a66bfafc284432d8e18d8c31b
+
+section.courses .item .down-content .text-button-pay {
+  float: right;
+  display: inline-block;
+  margin-top: -30px;
+}
+
+section.courses .item .down-content .text-button-pay a {
+  color: #f5a425;
+  font-size: 13px;
+}
+
+section.courses .item .down-content .text-button-free {
+  float: right;
+  display: inline-block;
+  margin-top: -30px;
+}
+
+section.courses .item .down-content .text-button-free a {
+  color: #7a7a7a;
+  font-size: 13px;
+}
+
+section.courses .owl-carousel .owl-nav {
+  display: none;
+}
+
+section.courses .owl-carousel .owl-dots {
+  text-align: center;
+}
+
+section.courses .owl-carousel button.owl-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  margin: 50px 10px 0px 10px;
+  outline: none;
+}
+section.courses .owl-carousel button.active {
+  background-color: #f5a425;
+}
+
+/* Video */
+
+section.video {
+  background-image: url(../images/video-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #172238;
+  padding: 120px 0px;
+=======
 section.coming-soon {
   background-image: url(../images/coming-soon-bg.jpg);
   background-repeat: no-repeat;
@@ -757,6 +937,7 @@ section.coming-soon form input:focus {
   box-shadow: none;
   color: #fff;
   background-color: rgba(250, 250, 250, 0.1);
+<<<<<<< HEAD
 }
 
 section.coming-soon form::placeholder {
@@ -878,18 +1059,37 @@ section.video {
   background-size: cover;
   background-color: #172238;
   padding: 120px 0px;
+=======
 }
 
-section.video .left-content {
+section.coming-soon form::placeholder {
+  color: #fff;
+}
+section.coming-soon form input::placeholder {
+  color: #fff;
+>>>>>>> 1a20c5f4ba8e68d75d55ed2e889edc1cd3946dc9
+>>>>>>> de10a2a312290e7a66bfafc284432d8e18d8c31b
+}
+section.coming-soon form input::placeholder {
   color: #fff;
 }
 
-section.video .left-content span {
+section.coming-soon form button {
+  margin-top: 10px;
+  background-color: #f5a425;
+  color: #fff;
+  font-size: 13px;
   text-transform: uppercase;
-  font-size: 14px;
   letter-spacing: 0.5px;
+  font-weight: 700;
+  padding: 12px 20px;
+  display: inline-block;
+  outline: none;
+  box-shadow: none;
+  border: none;
 }
 
+<<<<<<< HEAD
 section.video .left-content h4 {
   margin-top: 20px;
   font-size: 30px;
@@ -924,6 +1124,7 @@ section.video .left-content .main-button {
   section.video .second-item .second-content h4 {
     text-align: center;
   }
+<<<<<<< HEAD
 }
 
 .video-item figure {
@@ -978,7 +1179,12 @@ section.video .left-content .main-button {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
+=======
+>>>>>>> de10a2a312290e7a66bfafc284432d8e18d8c31b
 }
+=======
+/* Courses */
+>>>>>>> 1a20c5f4ba8e68d75d55ed2e889edc1cd3946dc9
 
 /* Magnific Popup CSS */
 .mfp-bg {
@@ -1016,7 +1222,7 @@ section.video .left-content .main-button {
 }
 
 .mfp-container:before {
-  content: '';
+  content: "";
   display: inline-block;
   height: 100%;
   vertical-align: middle;
@@ -1200,7 +1406,7 @@ button::-moz-focus-inner {
 
 .mfp-arrow:before,
 .mfp-arrow:after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   height: 0;
@@ -1302,7 +1508,7 @@ img.mfp-img {
 }
 
 .mfp-figure:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 40px;
